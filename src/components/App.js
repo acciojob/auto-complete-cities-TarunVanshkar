@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-//Update acciotest.json
 
 const App = () => {
-  const suggestions = ["Bhopal", "Indore", "Jabalpur", "Itarsi", "Patna", "Gwalior", "Dhanbad", "Jhasi", "Ahemdabad", "Banglore", "Chennai"];
+  const suggestions = ["apple", "banana", "cherry", "date", "elderberry", "fig"]
   const [query, setQuery] = useState("");
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
 
